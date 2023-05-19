@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia 8</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <section class="box">
+      <div class="addresBox">
+        <div class="mapText">
+          <h1>Registro de OSDeDA (Obra Social De Desarrolladores)</h1>
+        </div>
+        <div class="phone">
+          <p class="contactLabel">Tel:</p>
+          <a class="contactLink" href="tel:9703726385">9703726385</a>
+        </div>
+        <div class="mail">
+          <p class="contactLabel">E-mail:</p>
+          <a class="contactLink" href="mailto:contacto@osdeda.com">contacto@osdeda.com</a>
+        </div>
+        <div class="mapBox">
+          <iframe
+            class="map"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=90%25&amp;height=600&amp;hl=en&amp;q=mindhub%20buenos%20aires+(a)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
+      </div>
+      <div class="formBox">
+        <form action="show_data.html" method="get">
+          <fieldset>
+            <legend>Contacto</legend>
+            <label for="nombreCompleto">Nombre Completo</label>
+            <input type="text" name="nombreCompleto" id="nombreCompleto" placeholder="Nombre completo" />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail" />
+            <label for="msg">Mensaje</label>
+            <textarea name="mensaje" id="msg" placeholder="Mensaje"></textarea>
+            <div class="animate__animated animate__pulse animate__slower animate__infinite">
+              <input type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
